@@ -23,7 +23,7 @@ A React component library for displaying and interacting with FSC (Fuelling, Ser
 - **State Transitions**: Implemented clear and predictable state transitions based on user interactions
   - Left-click: required → current → completed → current (cycles between current and completed)
   - Right-click: required ↔ not-required, completed → required
-  - No effect: right-click in current state, left-click in not-required state
+  - No effect: right-click in current state, left-click in not-required state (ReadOnly Mode)
 - **Callback System**: Used onChange callbacks to notify parent components of state changes
 - **Read-Only Support**: Added read-only mode for display-only scenarios
 
@@ -52,7 +52,7 @@ A React component library for displaying and interacting with FSC (Fuelling, Ser
 
 ```bash
 # Clone the repository
-git clone [<repository-url>](https://github.com/sgr-0007/MoodletComponent)
+git clone https://github.com/sgr-0007/MoodletComponent
 cd moodlet
 
 # Install dependencies
