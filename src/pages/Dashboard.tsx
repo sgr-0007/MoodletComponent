@@ -5,7 +5,6 @@ const Dashboard: React.FC = () => (
   <section className="p-6">
     <FscMoodletGroup />
 
-    {/* add more component demos here */}
   </section>
 );
 
