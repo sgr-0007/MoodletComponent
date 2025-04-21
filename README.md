@@ -52,7 +52,7 @@ A React component library for displaying and interacting with FSC (Fuelling, Ser
 
 ```bash
 # Clone the repository
-git clone <repository-url>
+git clone [<repository-url>](https://github.com/sgr-0007/MoodletComponent)
 cd moodlet
 
 # Install dependencies
